@@ -1,0 +1,209 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+header {
+    background-image: url(./images/van\ gogh\ cats\ banner.jfif);
+    overflow: hidden;
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-img{
+    height: 40px;
+    width: 40px;
+}
+
+.marca{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo-nombre{
+    color: white;
+    display: flex;
+    font-family: bacasime antique;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav li {
+    display: inline-block;
+    font-family: bacasime antique;
+
+}
+
+nav li a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover {
+    background-color: #942c0f;
+    color: whitesmoke;
+}
+
+
+
+.principales{
+    color: #7abcae;
+    background-color: #ac5f47;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
+}
+
+.carousel-caption{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+
+
+.productos{
+    width: 200px;
+    height: 200px;
+}
+
+.articulos{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    max-width: 790px;
+}
+
+
+.compras{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.descripcion{
+    color: black;
+    font-family: bacasime antique;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+#pie-de-pagina{
+    background-color: #777542;
+    color: black;
+    align-items: center;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container{
+    font-family: bacasime antique;
+    background-color: #9a809f;
+}
+
+#formulario{
+    padding: 10px;
+}
+
+.btn.btn-primary{
+    margin-bottom: 10px;
+}
+
+.fa-location-dot{
+    font-size: 15px;
+    margin: 0 10px;
+    align-self: center;
+}
+
+.come-back-btn.btn-block{
+    background-color: #a0a97c;
+}
+
+.direction{
+    margin: 0 10px;
+    align-self: center;
+    display: inline-block;
+}
+
+.ubicacion{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.img-item{
+    height: 600px;
+    width: 800px;
+}
+
+.navbar{
+    height: fit-content;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .active>.nav-link:hover{
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .img-item{
+        height: 600px;
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .img-item{
+        height: 500px;
+        width: 300px;
+    }
+
+}
